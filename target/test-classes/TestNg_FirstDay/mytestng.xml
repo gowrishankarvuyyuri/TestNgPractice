@@ -5,7 +5,6 @@
 	<test name="basictest">
 		<classes>
 			<class name="TestNg_FirstDay.Basic_Test_Practice"/>
-			<!--class name="TestNg_FirstDay.OrangeHRM_TestNG"/-->
 		</classes>
 	</test>
 </suite>

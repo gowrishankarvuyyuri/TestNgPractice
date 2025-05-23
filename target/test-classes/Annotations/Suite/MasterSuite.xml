@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MasterSuite">
+	<suite-files>
+		<suite-file path="C:\Users\gowri\GowriShankar_WorkSpace\TestngFrameworkPractice\src\test\java\Annotations\Suite\suiteng.xml"/>
+		<suite-file path="C:\Users\gowri\GowriShankar_WorkSpace\TestngFrameworkPractice\src\test\java\Annotations\Suite\suiteng1.xml"/>
+	</suite-files>
+</suite>

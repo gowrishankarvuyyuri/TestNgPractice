@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="Annotations.Class.Before_After_Class_1"/>
+      <class name="Annotations.Class.Before_After_Class_2"/>
+      <!--class name="Annotations.Class.Before_After_Class_3"/-->
+    </classes>
+  </test>  
+</suite> 

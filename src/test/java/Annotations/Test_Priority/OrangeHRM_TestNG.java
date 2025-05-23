@@ -1,10 +1,11 @@
-package TestNg_FirstDay;
+package Annotations.Test_Priority;
 
 import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /*
@@ -41,7 +42,7 @@ public class OrangeHRM_TestNG {
 	void checkLogo() {
 		
 		boolean logo = driver.findElement(By.xpath("//img[@alt='client brand banner']")).isDisplayed();
-		System.out.println("Is Logo Displayed ?" + logo);
+		Assert.assertEquals(true, logo);
 	}
 	
 	
