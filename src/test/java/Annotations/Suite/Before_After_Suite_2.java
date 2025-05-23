@@ -8,7 +8,7 @@ public class Before_After_Suite_2 {
 	void aftertest() {
 		System.out.println("Inside Before Test -)");
 	}
-	
+	 
 	@AfterClass
 	void beforeclass() {
 		System.out.println("Inside After Class -)");

@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-23T15:26:14 IST" name="Default suite" finished-at="2025-05-23T15:26:22 IST" duration-ms="8400">
+  <suite started-at="2025-05-24T00:50:29 IST" name="Default suite" finished-at="2025-05-24T00:50:42 IST" duration-ms="13240">
     <groups>
     </groups>
-    <test started-at="2025-05-23T15:26:14 IST" name="Default test" finished-at="2025-05-23T15:26:22 IST" duration-ms="8400">
-      <class name="Annotations.Test_Priority.OrangeHRM_TestNG">
-        <test-method signature="openApp()[pri:0, instance:Annotations.Test_Priority.OrangeHRM_TestNG@5fe94a96]" started-at="2025-05-23T15:26:14 IST" name="openApp" finished-at="2025-05-23T15:26:18 IST" duration-ms="4350" status="PASS">
+    <test started-at="2025-05-24T00:50:29 IST" name="Default test" finished-at="2025-05-24T00:50:42 IST" duration-ms="13240">
+      <class name="Parameterization.DataProvider_ExcelSheet">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:29 IST" name="setup" finished-at="2025-05-24T00:50:31 IST" duration-ms="2291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="loginApp()[pri:1, instance:Annotations.Test_Priority.OrangeHRM_TestNG@5fe94a96]" started-at="2025-05-23T15:26:18 IST" name="loginApp" finished-at="2025-05-23T15:26:22 IST" duration-ms="3839" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:32 IST" name="launch" finished-at="2025-05-24T00:50:37 IST" duration-ms="4965" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginApp -->
-        <test-method signature="checkLogo()[pri:2, instance:Annotations.Test_Priority.OrangeHRM_TestNG@5fe94a96]" started-at="2025-05-23T15:26:22 IST" name="checkLogo" finished-at="2025-05-23T15:26:22 IST" duration-ms="26" status="PASS">
+        </test-method> <!-- launch -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:37 IST" name="testLogin" data-provider="LoginTestInput" finished-at="2025-05-24T00:50:42 IST" duration-ms="5102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gowrishankarvuyyuri@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GowriShankar2002]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkLogo -->
-        <test-method signature="closeApp()[pri:3, instance:Annotations.Test_Priority.OrangeHRM_TestNG@5fe94a96]" started-at="2025-05-23T15:26:22 IST" name="closeApp" finished-at="2025-05-23T15:26:22 IST" duration-ms="134" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:42 IST" name="teardown" finished-at="2025-05-24T00:50:42 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- Annotations.Test_Priority.OrangeHRM_TestNG -->
+        </test-method> <!-- teardown -->
+      </class> <!-- Parameterization.DataProvider_ExcelSheet -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -13,7 +13,7 @@ public class Before_After_Test_2 {
 	@BeforeClass
 	void beforeclass() {
 		System.out.println("Inside Before Class -)");
-	}
+	} 
 	
 	@AfterClass
 	void afterclass() {

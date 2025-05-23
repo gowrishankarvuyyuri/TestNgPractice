@@ -7,7 +7,7 @@ public class Before_After_Suite_3 {
 	@Test
 	void logout() {
 		System.out.println("Inside Logout -)");
-	}
+	} 
 	
 	@BeforeMethod
 	void open() {

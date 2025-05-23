@@ -14,7 +14,7 @@ public class Before_After_Suite_1 {
 	}
 	
 	@BeforeClass
-	void beforeclass() {
+	void beforeclass() { 
 		System.out.println("Inside Before Class -)");
 	}
 	
