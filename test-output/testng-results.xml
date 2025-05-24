@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T00:50:29 IST" name="Default suite" finished-at="2025-05-24T00:50:42 IST" duration-ms="13240">
+  <suite started-at="2025-05-25T02:11:41 IST" name="Suite" finished-at="2025-05-25T02:12:00 IST" duration-ms="18878">
     <groups>
+      <group name="login">
+        <method signature="LoginTest.logintoAppl()[pri:0, instance:PageObjectClasses.LoginTest@dd05255]" name="logintoAppl" class="PageObjectClasses.LoginTest"/>
+      </group> <!-- login -->
     </groups>
-    <test started-at="2025-05-24T00:50:29 IST" name="Default test" finished-at="2025-05-24T00:50:42 IST" duration-ms="13240">
-      <class name="Parameterization.DataProvider_ExcelSheet">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:29 IST" name="setup" finished-at="2025-05-24T00:50:31 IST" duration-ms="2291" status="PASS">
+    <test started-at="2025-05-25T02:11:41 IST" name="Test1" finished-at="2025-05-25T02:12:00 IST" duration-ms="18878">
+      <class name="PageObjectClasses.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PageObjectClasses.LogoutTest@1ff4931d]" started-at="2025-05-25T02:11:49 IST" name="setup" finished-at="2025-05-25T02:11:54 IST" duration-ms="4599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="launch()[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:32 IST" name="launch" finished-at="2025-05-24T00:50:37 IST" duration-ms="4965" status="PASS">
+        <test-method signature="logoutfromAppl()[pri:0, instance:PageObjectClasses.LogoutTest@1ff4931d]" started-at="2025-05-25T02:11:54 IST" name="logoutfromAppl" depends-on-groups="login" finished-at="2025-05-25T02:12:00 IST" duration-ms="6426" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:37 IST" name="testLogin" data-provider="LoginTestInput" finished-at="2025-05-24T00:50:42 IST" duration-ms="5102" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[gowrishankarvuyyuri@outlook.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[GowriShankar2002]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Parameterization.DataProvider_ExcelSheet@b2c9a9c]" started-at="2025-05-24T00:50:42 IST" name="teardown" finished-at="2025-05-24T00:50:42 IST" duration-ms="151" status="PASS">
+        </test-method> <!-- logoutfromAppl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PageObjectClasses.LogoutTest@1ff4931d]" started-at="2025-05-25T02:12:00 IST" name="teardown" finished-at="2025-05-25T02:12:00 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Parameterization.DataProvider_ExcelSheet -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- PageObjectClasses.LogoutTest -->
+      <class name="PageObjectClasses.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:PageObjectClasses.LoginTest@dd05255]" started-at="2025-05-25T02:11:42 IST" name="setup" finished-at="2025-05-25T02:11:46 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintoAppl()[pri:0, instance:PageObjectClasses.LoginTest@dd05255]" started-at="2025-05-25T02:11:46 IST" name="logintoAppl" finished-at="2025-05-25T02:11:49 IST" duration-ms="3178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoAppl -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:PageObjectClasses.LoginTest@dd05255]" started-at="2025-05-25T02:11:49 IST" name="teardown" finished-at="2025-05-25T02:11:49 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- PageObjectClasses.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>

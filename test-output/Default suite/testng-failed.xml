@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Parameterization.DataProvider_ExcelSheet">
+      <class name="PageObjectClasses.LoginTest">
         <methods>
-          <include name="launch"/>
           <include name="setup"/>
-          <include name="testLogin" invocation-numbers="0 1 3 4"/>
+          <include name="logintoAppl"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- Parameterization.DataProvider_ExcelSheet -->
+      </class> <!-- PageObjectClasses.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
